@@ -1,14 +1,14 @@
 {
     "builds":[
         {
-            "src":"test_flask/app.py" , 
+            "src":"api/app.py" , 
             "use" :"@vercal/python"
         } 
     ], 
     "routes" :[
         {
             "src" : "/(.*)" , 
-            "dest" : "test_flask/app.py"
+            "dest" : "api/app.py"
         }
     ]
 }
